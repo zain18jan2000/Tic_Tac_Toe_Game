@@ -5,6 +5,8 @@
 
 int player = 1;
 int score[9] = {0,0,0,0,0,0,0,0,0};
+
+// gotoxy funtion to move the cursor at different positions.
 void gotoxy(int x,int y){
 COORD c;
 c.X=x;
@@ -408,6 +410,7 @@ void score_writer(int *val,int *play){
 
 }
 
+# this function onthe basis of score decides if any player wins or not.
 int determiner(){
      if (score[0] == score[1] && score[1] == score[2] && score[0] == 1){
           gotoxy(0,0);
