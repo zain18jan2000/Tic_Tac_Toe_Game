@@ -10,3 +10,6 @@ This repository includes the following files,<br>
 3- **main.o**<br>
 4- **tic_tac_toe.cbp**<br>
 
+<h2>Interface<h2>
+  
+  ![tic](https://user-images.githubusercontent.com/82854685/139304670-06f58660-2fd2-4208-ae8a-099d55ff43a8.JPG)
